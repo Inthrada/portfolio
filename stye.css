@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;    
+}
+
+body{
+    background-color: aliceblue;
+    color: antiquewhite;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: beige;
+    color: blanchedalmond;
+    padding: 1rem 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    z-index: 100;
+    top: 0;
+}
+
+nav .logo > img{
+    height: 72px;
+}
+
+nav ul{
+    display: flex;
+    list-style:none ;
+    gap: 20px;
+    font-size: 18px;
+}
+nav a{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+.header{
+    text-align: center;
+    padding: 30px;
+}
+
+.img-portfolio{
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:0 5px 5px 5px burlywood;
+    border: 2px solid#ffffff;
+    margin-bottom: 20px;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 25px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    background: #ffffff;
+    width: 300px;
+    border-radius: 150px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 2px rgb(157, 26, 26);
+}
+.card img{
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3{
+    padding: 10px;
+    font-size: 24px;
+}
+.card p{
+    padding: 10px;
+    font-size: 16px;
+}
