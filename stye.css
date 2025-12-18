@@ -9,13 +9,13 @@
 
 body{
     background-color: aliceblue;
-    color: antiquewhite;
+    color: rgb(173, 109, 26);
     line-height: 1.6;
 }
 
 nav {
     background-color: beige;
-    color: blanchedalmond;
+    color: rgb(141, 105, 50);
     padding: 1rem 2rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ nav a:hover{
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow:0 5px 5px 5px burlywood;
+    box-shadow:0 5px 5px 5px rgb(0, 0, 0);
     border: 2px solid#ffffff;
     margin-bottom: 20px;
 }
@@ -75,9 +75,9 @@ h2{
     gap: 30px;
 }
 .card{
-    background: #ffffff;
+    background: #af1e1e;
     width: 300px;
-    border-radius: 150px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 2px 2px 2px rgb(157, 26, 26);
 }
